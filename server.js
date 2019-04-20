@@ -70,7 +70,8 @@ axios.get("https://esportsinsider.com/").then(function (response) {
         });
 
     });
-    // console.table(scrapeResults);
+    scrapeResults.slice(0, 9);
+    console.table(scrapeResults);
 });
 
 
